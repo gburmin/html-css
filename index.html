@@ -7,19 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
         <div class="header__box container">
             <ul class="header__left">
-                <li class="header__left_li"><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
-                <li class="header__left_li"><a href="#"><img src="img/search.svg" alt="search"></a></li>
+                <li class="header__left_li"><a class="header_link" href="index.html"><img src="img/logo.svg"
+                            alt="logo"></a></li>
+                <li class="header__left_li"><a class="header_link" href="#"><img src="img/search.svg" alt="search"></a>
+                </li>
             </ul>
             <ul class="header__right">
-                <li class="header__right_li"><a href="#"><img src="img/cataloge.svg" alt="cataloge"></a></li>
-                <li class="header__right_li"><a href="#"><img src="img/account.svg" alt="account"></a></li>
-                <li class="header__right_li"><a href="#"><img src="img/cart.png" alt="cart"></a></li>
+                <li class="header__right_li">
+                    <details>
+                        <summary><img src="img/cataloge.svg" alt="cataloge"></summary>
+                        <div class="header__cataloge_menu">
+                            <a class="close_header__cataloge_menu" href="#"><img src="img/close_menu.svg"
+                                    alt="close"></a>
+                            <h6 class="header__cataloge_head">MENU</h6>
+                            <span>MAN</span>
+                            <div class="header__cataloge__subbox">
+                                <p class="header__cataloge_text">Accessories</p>
+                                <p class="header__cataloge_text">Bags</p>
+                                <p class="header__cataloge_text">Denim</p>
+                                <p class="header__cataloge_text">T-Shirts</p>
+                            </div>
+                            <span>WOMAN</span>
+                            <div class="header__cataloge__subbox">
+                                <p class="header__cataloge_text">Accessories</p>
+                                <p class="header__cataloge_text">Jackets & Coats</p>
+                                <p class="header__cataloge_text">Polos</p>
+                                <p class="header__cataloge_text">T-Shirts</p>
+                                <p class="header__cataloge_text">Shirts</p>
+                            </div>
+                            <span>KIDS</span>
+                            <div class="header__cataloge__subbox">
+                                <p class="header__cataloge_text">Accessories</p>
+                                <p class="header__cataloge_text">Jackets & Coats</p>
+                                <p class="header__cataloge_text">Polos</p>
+                                <p class="header__cataloge_text">T-Shirts</p>
+                                <p class="header__cataloge_text">Shirts</p>
+                                <p class="header__cataloge_text">Bags</p>
+                            </div>
+                        </div>
+                    </details>
+                </li>
+                <li class="header__right_li"><a class="header_link" href="#"><img src="img/account.svg"
+                            alt="account"></a></li>
+                <li class="header__right_li"><a class="header_link" href="#"><img src="img/header_cart.png"
+                            alt="cart"></a>
+                </li>
             </ul>
         </div>
     </div>
@@ -56,56 +97,105 @@
         <h3 class="feautered__header">Fetured Items</h3>
         <p class="text featured__text_margin">Shop for items based on what we featured in this week</p>
         <div class="card__box">
-            <div class="card__item"><a href="#"><img src="img/card1.png" alt="card1"></a>
-                <div class="card__item_description">
-                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
-                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
-                        class="card__item_price">$52.00</span>
-                </div>
-            </div>
-            <div class="card__item"><a href="#"><img src="img/card2.png" alt="card2"></a>
-                <div class="card__item_description">
-                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
-                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
-                        class="card__item_price">$52.00</span>
-                </div>
-            </div>
-            <div class="card__item"><a href="#"><img src="img/card3.png" alt="card3"></a>
-                <div class="card__item_description">
-                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
-                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
-                        class="card__item_price">$52.00</span>
-                </div>
-            </div>
-            <div class="card__item"><a href="#"><img src="img/card4.png" alt="card4"></a>
-                <div class="card__item_description">
-                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
-                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
-                        class="card__item_price">$52.00</span>
-                </div>
-            </div>
-            <div class="card__item"><a href="#"><img src="img/card5.png" alt="card5"></a>
-                <div class="card__item_description">
-                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
-                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
-                        class="card__item_price">$52.00</span>
-                </div>
-            </div>
-            <div class="card__item"><a href="#"><img src="img/card6.png" alt="card6"></a>
-                <div class="card__item_description">
-                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
-                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
-                        class="card__item_price">$52.00</span>
+            <div class="card__item">
+                <a class="card__item_link" href="#"><img class="card__item_img" src="img/card1.png" alt="card1">
+                    <div class="card__item_description">
+                        <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
+                        <p class="text card__item_text">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
+                            class="card__item_price">$52.00</span>
+                </a>
+                <div class="add__item_box">
+                    <a href="#" class="card__item_addtocart">
+                        <img class="add__item_img" src="img/cart_add.svg" alt="cart">
+                        <p class="add__item_txt">Add to Cart</p>
+                    </a>
                 </div>
             </div>
         </div>
-        <a href="#" class="button">Browse All Product</a>
+        <div class="card__item"><a class="card__item_link" href="#"><img class="card__item_img" src="img/card2.png"
+                    alt="card2">
+                <div class="card__item_description">
+                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
+                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
+                        class="card__item_price">$52.00</span>
+                </div>
+            </a>
+            <div class="add__item_box">
+                <a href="#" class="card__item_addtocart">
+                    <img class="add__item_img" src="img/cart_add.svg" alt="cart">
+                    <p class="add__item_txt">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="card__item"><a class="card__item_link" href="#"><img class="card__item_img" src="img/card3.png"
+                    alt="card3">
+                <div class="card__item_description">
+                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
+                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
+                        class="card__item_price">$52.00</span>
+                </div>
+            </a>
+            <div class="add__item_box">
+                <a href="#" class="card__item_addtocart">
+                    <img class="add__item_img" src="img/cart_add.svg" alt="cart">
+                    <p class="add__item_txt">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="card__item"><a class="card__item_link" href="#"><img class="card__item_img" src="img/card4.png"
+                    alt="card4">
+                <div class="card__item_description">
+                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
+                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
+                        class="card__item_price">$52.00</span>
+                </div>
+            </a>
+            <div class="add__item_box">
+                <a href="#" class="card__item_addtocart">
+                    <img class="add__item_img" src="img/cart_add.svg" alt="cart">
+                    <p class="add__item_txt">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="card__item"><a class="card__item_link" href="#"><img class="card__item_img" src="img/card5.png"
+                    alt="card5">
+                <div class="card__item_description">
+                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
+                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
+                        class="card__item_price">$52.00</span>
+                </div>
+            </a>
+            <div class="add__item_box">
+                <a href="#" class="card__item_addtocart">
+                    <img class="add__item_img" src="img/cart_add.svg" alt="cart">
+                    <p class="add__item_txt">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="card__item"><a class="card__item_link" href="#"><img class="card__item_img" src="img/card6.png"
+                    alt="card6">
+                <div class="card__item_description">
+                    <h4 class="card__item_header">ELLERY X M'O CAPSULE</h4>
+                    <p class="text card__item_text">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p> <span
+                        class="card__item_price">$52.00</span>
+                </div>
+            </a>
+            <div class="add__item_box">
+                <a href="#" class="card__item_addtocart">
+                    <img class="add__item_img" src="img/cart_add.svg" alt="cart">
+                    <p class="add__item_txt">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="button">Browse All Product</a>
     </div>
     <div class="footer">
         <div class="footer__top">
@@ -140,8 +230,8 @@
                             pulvinar purus condimentum“</p>
                     </div>
                     <div class="footer__middle_item">
-                        <h5 class="footer__middle_header"><span class="footer__middle_uppercase"> SUBSCRIBE </span> <br>
-                            FOR OUR NEWLETTER AND PROMOTION</h5>
+                        <p class="footer__middle_header"><span class="footer__middle_uppercase"> SUBSCRIBE </span> <br>
+                            FOR OUR NEWLETTER AND PROMOTION</p>
                         <form class="footer__middle_form" action="#">
                             <input class="email__form" type="email" placeholder="     Enter Your Email">
                             <button class="btn_submit" type="submit">Subscribe</button></form>
