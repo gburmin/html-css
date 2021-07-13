@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://kit.fontawesome.com/dea90467db.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__box container">
+            <ul class="header__left">
+                <li class="header__left_li"><a class="header_link" href="index.html"><img src="img/logo.svg"
+                            alt="logo"></a></li>
+                <li class="header__left_li"><a class="header_link" href="#"><img src="img/search.svg" alt="search"></a>
+                </li>
+            </ul>
+            <ul class="header__right">
+                <li class="header__right_li">
+                    <details>
+                        <summary class="nav_menu_style"><img src="img/cataloge.svg" alt="cataloge"></summary>
+                        <nav class="header__cataloge_menu">
+                            <a class="close_header__cataloge_menu" href="#"><img src="img/close_menu.svg"
+                                    alt="close"></a>
+                            <h6 class="header__cataloge_head">MENU</h6>
+                            <a href="catalog.html" class="header__catalog_subhead"><span>MAN</span></a>
+                            <div class="header__cataloge__subbox">
+                                <a href="#" class="header__cataloge_link">Accessories</a>
+                                <a href="#" class="header__cataloge_link">Bags</a>
+                                <a href="#" class="header__cataloge_link">Denim</a>
+                                <a href="#" class="header__cataloge_link">T-Shirts</a>
+                            </div>
+                            <a href="catalog.html" class="header__catalog_subhead"><span>WOMAN</span></a>
+                            <div class="header__cataloge__subbox">
+                                <a href="#" class="header__cataloge_link">Accessories</a>
+                                <a href="#" class="header__cataloge_link">Jackets & Coats</a>
+                                <a href="#" class="header__cataloge_link">Polos</a>
+                                <a href="#" class="header__cataloge_link">T-Shirts</a>
+                                <a href="#" class="header__cataloge_link">Shirts</a>
+                            </div>
+                            <a href="catalog.html" class="header__catalog_subhead"><span>KIDS</span></a>
+                            <div class="header__cataloge__subbox">
+                                <a href="#" class="header__cataloge_link">Accessories</a>
+                                <a href="#" class="header__cataloge_link">Jackets & Coats</a>
+                                <a href="#" class="header__cataloge_link">Polos</a>
+                                <a href="#" class="header__cataloge_link">T-Shirts</a>
+                                <a href="#" class="header__cataloge_link">Shirts</a>
+                                <a href="#" class="header__cataloge_link">Bags</a>
+                            </div>
+                        </nav>
+                    </details>
+                </li>
+                <li class="header__right_li"><a class="header_link" href="#"><img src="img/account.svg"
+                            alt="account"></a></li>
+                <li class="header__right_li"><a class="header_link" href="cart.html"><img src="img/header_cart.png"
+                            alt="cart"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="top">
+        <div class="container">
+            <div class="top__box">
+                <span class="top__box_txt">SHOPPING CART </span>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="cart__box">
+                <div class="cart__left">
+                <form action="#">
+                    <div class="cart__item">
+                        <a href="product.html" class="cart__item-link">
+                            <img class="cart__item-img" src="img/card3.png" alt="card3">
+                            <div class="cart__item-descr">
+                            <p class="cart__item-descr_header">MANGO  PEOPLE  T-SHIRT</p>
+                            <ul class="cart__item-descr_list">
+                                <li>Price: <span>$300</span></li>
+                                <li>Color: Red</li>
+                                <li>Size: Xl	</li>
+                                <li>Quantity:	<input type="number" value="1" class="cart__item-descr_quantity input_number"></li>
+                            </ul>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cart__item">
+                        <a href="product.html" class="cart__item-link">
+                            <img class="cart__item-img" src="img/catalogcard2.jpg" alt="card2">
+                            <div class="cart__item-descr">
+                            <p class="cart__item-descr_header">MANGO  PEOPLE  T-SHIRT</p>
+                            <ul class="cart__item-descr_list">
+                                <li>Price: <span>$300</span></li>
+                                <li>Color: Red</li>
+                                <li>Size: Xl	</li>
+                                <li>Quantity:	<input type="number" value="1" class="cart__item-descr_quantity input_number"></li>
+                            </ul>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cart__left-buttons">
+                        <a href="#" class="cart__left-btn">CLEAR SHOPPING CART</a>
+                        <a href="catalog.html" class="cart__left-btn">CONTINUE SHOPPING</a>
+                    </div>
+                </form>
+                </div>
+                <div class="cart__right">
+                    <div class="cart__shipping">
+                        <form action="#">
+                        <p class="cart__shipping_header">SHIPPING ADRESS</p>
+                        <input type="text" placeholder="  Bangladesh" class="cart__shipping_input">
+                        <input type="text" placeholder="  State" class="cart__shipping_input">
+                        <input type="number" placeholder="  Postcode / Zip" class="cart__shipping_input input_number">
+                        <button class="cart__submit" type="submit">GET A QUOTE</button>
+                    </form>
+                    </div>
+                    <div class="cart__checkout">
+                        <p class="cart__checkout_subtotal">SUB TOTAL         $900</p>
+                        <p class="cart__checkout_grandtotal">GRAND TOTAL     <span>$900</span> </p>
+                        <a href="#" class="cart__checkout_proceed">PROCEED TO CHECKOUT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__middle">
+            <div class="container">
+                <div class="footer__middle_box">
+                    <div class="footer__middle_item"><img src="img/footer__middle_img.svg" alt="image">
+                        <p class="footer__middle_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar purus condimentum“</p>
+                    </div>
+                    <div class="footer__middle_item">
+                        <h5 class="footer__middle_header"><span class="footer__middle_uppercase"> SUBSCRIBE </span> <br>
+                            FOR OUR NEWLETTER AND PROMOTION</h5>
+                        <form class="footer__middle_form" action="#">
+                            <input class="email__form" type="email" placeholder="     Enter Your Email">
+                            <button class="btn_submit" type="submit">Subscribe</button></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bot">
+            <div class="container footer__bot_box">
+                <p class="copyright">© 2021 Brand All Rights Reserved.</p>
+                <ul class="links">
+                    <li class="li_pos"><a class="soclink" href="https://www.facebook.com" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a></li>
+                    <li class="li_pos"><a class="soclink" href="https://www.instagram.com" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="li_pos"><a class="soclink" href="https://www.pinterest.com" target="_blank"><i
+                                class="fab fa-pinterest-p"></i></a></li>
+                    <li class="li_pos"><a class="soclink" href="https://www.twitter.com" target="_blank"><i
+                                class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+</body>
+</html>
